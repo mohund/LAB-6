@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+}
+
+#likebtn,
+#dislikebtn {
+  margin-top: 20px;
+  padding: 8px 5%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  color: #575757;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+#submit,
+#clear {
+  margin: 5px;
+  padding: 10px 20px;
+    background-color: #656565;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.comments{
+    margin-top: 3%;
+
+}
+
+.comments h3{
+    color: #575757;
+    margin-top: 20px;
+    margin-bottom: 3%;
+}
+
+
+#commentBox{
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: block;
+    resize: none;
+}
+
+#commentsList {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#commentsList p {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 4px solid #656565;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#commentsList p:nth-child(odd) {
+    background-color: #f1f1f1;
+}
